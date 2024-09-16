@@ -1,15 +1,19 @@
 # parcial-practico-apis
 
+
 Repositorio que alberga el parcial práctico de la materia Diseño y Construcción de APIs.
 
 Siguiendo el proceso de diseño de APIs, se realizó un diagrama de clases UML para el enunciado provisto. Se muestra a continuación:
 
 ![UML-parcial-practico](https://github.com/user-attachments/assets/33e90383-6c01-499a-ad5d-3ee6b2393177)
 
-La entidad que representa un prosucto es `Product`. Tiene un nombre (`name`), un precio (`price`) y un tipo (`type`).
+La entidad que representa un producto es `Product`. Tiene un nombre (`name`), un precio (`price`) y un tipo (`type`).
 
 La entidad que representa una tienda es `Store`. Tiene un nombre (`name`), una ciudad (`city`) y una dirección (`address`).
 
+**Notas**: Se implementó la totalidad de las pruebas de Postman para comprobar el correcto funcionamiento del API. Entre ellas, naturalmente, se incluyen las solicitadas en el enunciado del parcial.
+
+---
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
